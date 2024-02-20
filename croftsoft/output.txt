@@ -1,0 +1,168 @@
+Buildfile: /home/runner/Java-Croftsoft-Study/croftsoft/build.xml
+
+init:
+    [mkdir] Created dir: /home/runner/Java-Croftsoft-Study/croftsoft/tmp
+   [tstamp] Honouring environment variable SOURCE_DATE_EPOCH which has been set to 315532800
+
+chat_prep:
+     [copy] Copying 4 files to /home/runner/Java-Croftsoft-Study/croftsoft/tmp/apps/chat/avatar
+
+init1:
+
+init2:
+
+chat:
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/build.xml:354: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/runner/Java-Croftsoft-Study/croftsoft/tmp
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/apps/chat/ChatApplet.java:36: warning: [removal] JApplet in javax.swing has been deprecated and marked for removal
+    [javac]        extends JApplet
+    [javac]                ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/gui/LifecycleWindowListener.java:161: warning: [removal] JApplet in javax.swing has been deprecated and marked for removal
+    [javac]        JApplet      applet,
+    [javac]        ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/media/sound/AudioClipCache.java:37: warning: [removal] AudioClip in java.applet has been deprecated and marked for removal
+    [javac]      private AudioClip  audioClip;
+    [javac]              ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/media/sound/AudioClipCache.java:107: warning: [removal] AudioClip in java.applet has been deprecated and marked for removal
+    [javac]        audioClip = ( AudioClip ) nameToAudioClipMap.get ( audioClipName );
+    [javac]                      ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/media/sound/AudioClipCache.java:114: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    [javac]          audioClip = Applet.newAudioClip ( audioClipURL );
+    [javac]                      ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/awt/image/ImageLib.java:35: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    [javac]        Applet  applet )
+    [javac]        ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/gui/FullScreenToggler.java:124: warning: [removal] AccessControlException in java.security has been deprecated and marked for removal
+    [javac]          catch ( AccessControlException  ex )
+    [javac]                  ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/gui/FullScreenToggler.java:138: warning: [removal] AccessControlException in java.security has been deprecated and marked for removal
+    [javac]          catch ( AccessControlException  ex )
+    [javac]                  ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/lang/lifecycle/AppletLifecycle.java:24: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    [javac]      private final Applet  applet;
+    [javac]                    ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/lang/lifecycle/AppletLifecycle.java:29: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    [javac]      public  AppletLifecycle ( Applet  applet )
+    [javac]                                ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/util/id/LongId.java:48: warning: [removal] Long(long) in Long has been deprecated and marked for removal
+    [javac]        this ( new Long ( l ) );
+    [javac]               ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/util/id/LongId.java:54: warning: [removal] Long(String) in Long has been deprecated and marked for removal
+    [javac]        this ( new Long ( s ) );
+    [javac]               ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/io/SerializableLib.java:220: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    [javac]        Applet       applet,
+    [javac]        ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/io/SerializableLib.java:403: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    [javac]        Applet        applet,
+    [javac]        ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/applet/AppletLib.java:30: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    [javac]        Applet  applet,
+    [javac]        ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/applet/AppletLib.java:40: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+    [javac]        AppletContext  appletContext = null;
+    [javac]        ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/applet/AppletLib.java:69: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    [javac]        Applet        applet,
+    [javac]        ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/applet/AppletLib.java:81: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+    [javac]        AppletContext  appletContext = null;
+    [javac]        ^
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 18 warnings
+      [jar] Building jar: /home/runner/Java-Croftsoft-Study/croftsoft/arc/chat.jar
+   [delete] Deleting directory /home/runner/Java-Croftsoft-Study/croftsoft/tmp
+    [mkdir] Created dir: /home/runner/Java-Croftsoft-Study/croftsoft/tmp/WEB-INF/classes
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/build.xml:369: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/runner/Java-Croftsoft-Study/croftsoft/tmp/WEB-INF/classes
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/servlet/HttpGatewayServlet.java:24: error: cannot find symbol
+    [javac]        extends HttpServlet
+    [javac]                ^
+    [javac]   symbol: class HttpServlet
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/apps/chat/ChatServlet.java:57: error: cannot find symbol
+    [javac]        throws ServletException
+    [javac]               ^
+    [javac]   symbol:   class ServletException
+    [javac]   location: class ChatServlet
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/servlet/HttpGatewayServlet.java:89: error: cannot find symbol
+    [javac]        HttpServletRequest   httpServletRequest,
+    [javac]        ^
+    [javac]   symbol:   class HttpServletRequest
+    [javac]   location: class HttpGatewayServlet
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/servlet/HttpGatewayServlet.java:90: error: cannot find symbol
+    [javac]        HttpServletResponse  httpServletResponse )
+    [javac]        ^
+    [javac]   symbol:   class HttpServletResponse
+    [javac]   location: class HttpGatewayServlet
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/servlet/HttpGatewayServlet.java:91: error: cannot find symbol
+    [javac]        throws IOException, ServletException
+    [javac]                            ^
+    [javac]   symbol:   class ServletException
+    [javac]   location: class HttpGatewayServlet
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/apps/chat/ChatServlet.java:3: error: package javax.servlet does not exist
+    [javac]      import javax.servlet.*;
+    [javac]      ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/servlet/HttpGatewayServlet.java:5: error: package javax.servlet does not exist
+    [javac]      import javax.servlet.*;
+    [javac]      ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/servlet/HttpGatewayServlet.java:6: error: package javax.servlet.http does not exist
+    [javac]      import javax.servlet.http.*;
+    [javac]      ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/servlet/HttpGatewayServlet.java:106: error: cannot find symbol
+    [javac]                HttpServletResponse.SC_BAD_REQUEST );
+    [javac]                ^
+    [javac]   symbol:   variable HttpServletResponse
+    [javac]   location: class HttpGatewayServlet
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/servlet/HttpGatewayServlet.java:115: error: cannot find symbol
+    [javac]              httpServletResponse.setStatus ( HttpServletResponse.SC_OK );
+    [javac]                                              ^
+    [javac]   symbol:   variable HttpServletResponse
+    [javac]   location: class HttpGatewayServlet
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/servlet/HttpGatewayServlet.java:124: error: cannot find symbol
+    [javac]                HttpServletResponse.SC_ACCEPTED );
+    [javac]                ^
+    [javac]   symbol:   variable HttpServletResponse
+    [javac]   location: class HttpGatewayServlet
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/servlet/HttpGatewayServlet.java:131: error: cannot find symbol
+    [javac]            HttpServletResponse.SC_INTERNAL_SERVER_ERROR );
+    [javac]            ^
+    [javac]   symbol:   variable HttpServletResponse
+    [javac]   location: class HttpGatewayServlet
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/servlet/HttpGatewayServlet.java:133: error: cannot find symbol
+    [javac]          log ( ex.getMessage ( ), ex );
+    [javac]          ^
+    [javac]   symbol:   method log(String,Exception)
+    [javac]   location: class HttpGatewayServlet
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/util/id/LongId.java:48: warning: [removal] Long(long) in Long has been deprecated and marked for removal
+    [javac]        this ( new Long ( l ) );
+    [javac]               ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/util/id/LongId.java:54: warning: [removal] Long(String) in Long has been deprecated and marked for removal
+    [javac]        this ( new Long ( s ) );
+    [javac]               ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/io/SerializableLib.java:220: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    [javac]        Applet       applet,
+    [javac]        ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/io/SerializableLib.java:403: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    [javac]        Applet        applet,
+    [javac]        ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/applet/AppletLib.java:30: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    [javac]        Applet  applet,
+    [javac]        ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/applet/AppletLib.java:40: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+    [javac]        AppletContext  appletContext = null;
+    [javac]        ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/applet/AppletLib.java:69: warning: [removal] Applet in java.applet has been deprecated and marked for removal
+    [javac]        Applet        applet,
+    [javac]        ^
+    [javac] /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/applet/AppletLib.java:81: warning: [removal] AppletContext in java.applet has been deprecated and marked for removal
+    [javac]        AppletContext  appletContext = null;
+    [javac]        ^
+    [javac] Note: /home/runner/Java-Croftsoft-Study/croftsoft/src/com/croftsoft/core/jnlp/JnlpLib.java uses or overrides a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 13 errors
+    [javac] 8 warnings
